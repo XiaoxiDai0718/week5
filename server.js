@@ -6,7 +6,7 @@ app.set('view engine', 'html');
 
 let bodyParser = require("body-parser");
 
-app.use(express.static('images'));
+app.use(express.static('img'));
 app.use(express.static('css'));
 
 app.use(bodyParser.urlencoded({
